@@ -37,7 +37,7 @@ $color7:rgba(103, 244, 251, 0.2);
     max-height: 250px;
 }
 &_tipo{
-    display: inline-flexbox;
+    display: inline-flex;
     margin: auto;
     margin: 1rem;
     padding: 1rem;
@@ -125,7 +125,7 @@ body{
 /* modificando el about me */
 .imagenes{
     max-height: 100px;
-    display:  grid inline-flex;
+    display: inline-flex;
     margin: 1rem;
     padding: 1rem;
   
@@ -252,7 +252,7 @@ body{
     opacity: .3;
 
     position: absolute;
-    bottom: -150;
+    bottom: -150px;
     
     animation: burbujas 4s linear infinite ;
 
@@ -314,7 +314,7 @@ body{
 }
 
 &:nth-child(8){
-    width: 100;
+    width: 100px;
     height: 100px;
     left: 52%;
     animation-duration: 5s;
@@ -352,7 +352,7 @@ body{
      opacity: 1;
  
      position: absolute;
-     bottom: -150;
+     bottom: -150px;
      
      animation: burbujas 4s linear infinite ;
  
@@ -363,7 +363,7 @@ body{
      color: $color4;
      width: 90px;
      height: 80px;
-     size: 40px;
+     font-size: 40px;
      left: 5%;
      animation-duration: 3s;
      animation-delay: 3s;
@@ -418,7 +418,7 @@ body{
  }
  
  &:nth-child(8){
-     width: 100;
+     width: 100px;
      height: 100px;
      left: 52%;
      animation-duration: 5s;
@@ -455,7 +455,7 @@ body{
 }
 
 &_tipo{
-    display: inline-flexbox;
+    display: inline-flex;
     margin: auto;
     margin: 1rem;
     padding: 1rem;

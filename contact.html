@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blaasscode    </title>
+    <title>Blasscode</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
@@ -47,18 +47,18 @@
     <section class="login">
       <section class="login__container">
         <h2>Enviame un mensaje</h2>
-        <form class="login__container--form">
-          <input class="input" type="text" placeholder="Nombre">
-          <input class="input" type="text" placeholder="Correo">
-          <input class="input" type="number" placeholder="telefono">
-          <input class="input" type="text" placeholder="motivo">
+        <form class="login__container--form" action="https://formspree.io/f/TU_CODIGO_AQUI" method="POST">
+          <input class="input" type="text" name="nombre" placeholder="Nombre" required>
+          <input class="input" type="email" name="correo" placeholder="Correo" required>
+          <input class="input" type="number" name="telefono" placeholder="Teléfono">
+          <input class="input" type="text" name="motivo" placeholder="Motivo" required>
            <div class="login__container--remember-me">
             <label >
-              <input type="checkbox" name="" id="cbox1" value="checkbos">Listo
+              <input type="checkbox" name="terminos" id="cbox1" value="checkbox" required> Listo
             </label>
             
           </div>
-          <button class="button">Enviar</button>
+          <button class="button" type="submit">Enviar</button>
         </form>
         <section class="login__container--social-media">
         
@@ -66,9 +66,7 @@
           <div><img src="./addsets/logo_coderhouse_2_bmqbet.png" alt="coder"> <a href="https://plataforma.coderhouse.com/perfil/6011d89d03f37f00903e117c"> coder house</a></div>
           <div><img src="./addsets/174857.png" alt="linkedin"> <a href="https://www.linkedin.com/in/rafael-trujillo-6828a6212/"> linkedin</a></div>
         </section>
-        <p class="login__container--register"> <a href="iniciar-sesion.html">Atras</a></p>
-      </section>
-
+        <p class="login__container--register"> <a href="index.html">Atras</a></p>
       </section>
     </section>
     
